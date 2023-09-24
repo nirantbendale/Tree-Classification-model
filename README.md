@@ -9,21 +9,21 @@ In this chapter, we establish the foundation of our analysis by obtaining and pr
 
 ## Chapter 2: Dataset Overview:
 ### Features: 
-The dataset includes features like:
-Class \
-Alcohol \
-Malic acid \
-Ash \
-Alcalinity of ash \
-Magnesium \ 
-Total phenols \
-Flavanoids \
-Nonflavanoid phenols\ 
-Proanthocyanins \
-Color intensity \
-Hue \
-OD280/OD315 of diluted wines \
-Proline
+The dataset includes features like: \
+Class: This feature represents the class or type of wine. It serves as the target variable in this dataset, with values indicating different wine classes. \
+Alcohol: Alcohol content is the percentage of alcohol present in the wine. It can influence the flavor and strength of the wine. \
+Malic Acid: Malic acid is a type of organic acid found in grapes. It contributes to the overall acidity of the wine. \
+Ash: Ash content refers to the inorganic mineral content present in the wine. It can affect the taste and stability of the wine. \
+Alcalinity of Ash: This measures the alkalinity of the inorganic components in the wine. It is an important factor in wine chemistry. \
+Magnesium: Magnesium content represents the concentration of magnesium in the wine. It can impact the wine's taste and aroma. \ 
+Total Phenols: Total phenolic content measures the concentration of phenolic compounds in the wine. Phenols can contribute to the wine's color, flavor, and antioxidant properties. \
+Flavanoids: Flavonoids are a subgroup of phenolic compounds found in wine. They play a significant role in wine quality, taste, and health benefits. \
+Nonflavanoid Phenols: This feature represents the concentration of non-flavonoid phenolic compounds in the wine, which can also influence wine characteristics. \
+Proanthocyanins: Proanthocyanins are a type of flavonoid found in wine. They contribute to the wine's bitterness and astringency. \
+Color Intensity: Color intensity measures the depth and richness of the wine's color. It is an important visual characteristic of wine. \
+Hue: Hue refers to the color shade of the wine. It can provide insights into the wine's color variation. \
+OD280/OD315 of Diluted Wines: This feature represents the optical density of wines measured at two different wavelengths. It can be related to the wine's color and clarity. \
+Proline: Proline is an amino acid found in wine. It can affect the wine's taste, aroma, and stability.
 
 ### Target Variable:
 The target variable in this project is: \
