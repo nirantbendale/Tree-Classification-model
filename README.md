@@ -1,4 +1,4 @@
-# Tree-Classification-model
+# Tree-based-classification-model
 
 ## Chapter 1: Importing the Data
 In the initial phase of this project, we begin by importing the dataset. The dataset is retrieved from the UCI Machine Learning Repository and consists of information about different types of wine. We use the read.table function to load the data, specifying the data source, separator, column names, and other relevant parameters. After loading the data, we examine its dimensions, check for missing values, and generate a summary to gain an initial understanding of its structure and content. \
