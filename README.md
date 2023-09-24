@@ -59,17 +59,31 @@ Next, we introduce the decision tree model, a popular choice for classification 
 With the model constructed, we move on to evaluating its performance. Initially, the model is trained on a subset of the dataset. We use a random seed to ensure reproducibility and obtain a training set of 150 instances.
 
 
-The decision tree model is trained on the training set, and predictions are made on the test set. The results are then compared to the actual class labels, allowing us to calculate performance metrics.
-
-
+The decision tree model is trained on the training set, and predictions are made on the test set.  \
+![Tree1](wine-tree.png) \
+The results are then compared to the actual class labels, allowing us to calculate performance metrics. \
+**Confusion Matrix:**
+| tree.pred | Class 1 | Class 2 | Class 3 |
+| --- | --- | --- | --- |
+| Class 1 | 9 | 0 | 0 |
+| Class 2 | 0 | 10 | 0 |
+| Class 3 | 0 | 0 | 9 |
 ## Chapter 5: Model Pruning and Refinement
 In this chapter, we address model complexity and overfitting by performing pruning on the decision tree. The decision tree model is initially built without constraints, which may lead to overly complex structures that do not generalize well to new data. Pruning aims to simplify the tree while maintaining predictive accuracy.
 
 We use cross-validation to determine the optimal level of pruning. Cross-validation helps us find the right trade-off between model complexity and performance.
 
 
-Once the optimal pruning level is determined, we prune the decision tree accordingly. The pruned tree is visualized and evaluated to assess its performance compared to the unpruned version.
+Once the optimal pruning level is determined, we prune the decision tree accordingly. \
+![Tree2](wine-pruned-tree.png) \
+The pruned tree is visualized and evaluated to assess its performance compared to the unpruned version. \
+| tree.pred | Class 1 | Class 2 | Class 3 |
+| --- | --- | --- | --- |
+| Class 1 | 9 | 0 | 0 |
+| Class 2 | 0 | 10 | 0 |
+| Class 3 | 0 | 0 | 9 |
 
+The confusion matrix observed for both the trees was the same and hence, it can be determined that the classification and misclassification rate for both the trees was the same.
 
 ## Chapter 6: Conclusion and Model Assessment
 In the final chapter, we conclude the project by summarizing our findings and model assessment. We have successfully imported and explored the dataset, built a decision tree model, evaluated its performance, and refined it through pruning. The pruned model provides better generalization and improved predictive accuracy. We emphasize the importance of model assessment and selection, which are critical aspects of any machine learning project. This project serves as a practical example of classification modeling and the iterative process of refining models for better performance and interpretability.
