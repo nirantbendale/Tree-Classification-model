@@ -30,10 +30,23 @@ The target variable in this project is: \
 Class: It determines whether the classified wine of class 1, 2 or 3.
 
 ## Chapter 2: Exploratory Data Analysis (EDA)
-In the second chapter, we dive into Exploratory Data Analysis (EDA). EDA is a crucial step in any data science project as it helps us understand the characteristics and relationships within the dataset. We utilize libraries like skimr to generate comprehensive statistics and visualizations. These statistics include measures of central tendency, distribution summaries, and data quality checks. Visualizations, such as histograms and correlation matrices, provide insights into feature relationships and potential patterns within the data.
+Exploratory Data Analysis (EDA) is a critical step in understanding the dataset's characteristics and relationships between variables. In this chapter, we employ various visualizations and statistics to delve into the Wine dataset.
 
-
-In this chapter, we gain a deeper understanding of the dataset's properties, which will inform our modeling decisions.
+### Visualizations:
+### Class Distribution
+The first visualization explores the distribution of classes in the Wine dataset. A barplot is used to represent the number of instances for each class (Class 1, Class 2, and Class 3) in different colors (red, blue, and green). This plot provides insights into the distribution of wine classes within the dataset. \
+![Barplot](wine-bar.png)
+### Alcohol Content Distribution
+The second visualization focuses on the distribution of alcohol content in the wines. A histogram is used to display the frequency of different alcohol content values. The plot is color-coded with a light blue fill and black borders and is divided into 20 bins to show the spread of alcohol content. \
+![Histogram](wine-hist.png)
+### Scatter Plot: Alcohol vs. Color Intensity
+The third visualization presents a scatter plot that examines the relationship between alcohol content and color intensity. Each data point is color-coded according to its wine class. This plot helps us visualize how alcohol content relates to color intensity across different wine classes. \
+![Scatter](wine-scat.png)
+### Boxplot: Alcohol Content by Class
+The fourth visualization employs a boxplot to showcase the distribution of alcohol content within each wine class. The boxplot provides insights into the median, quartiles, and potential outliers of alcohol content for each class. Different classes are represented in distinct colors. \
+![Boxplot](wine-box.png) \
+These visualizations are instrumental in uncovering patterns, distributions, and relationships within the Wine dataset, setting the stage for subsequent modeling and analysis. They offer a visual narrative of the dataset's characteristics, helping us make informed decisions about feature selection and modeling strategies. \
+In this chapter, we gained a deeper understanding of the dataset's properties, which will inform our modeling decisions.
 
 ## Chapter 3: Building the Model
 This chapter revolves around constructing a predictive model using the dataset. We start by preparing the dataset for modeling, specifically focusing on the target variable. In this case, the 'Class' variable, representing different wine classes, is converted into a factor.
