@@ -1,10 +1,33 @@
 # Tree-Classification-model
 
 ## Chapter 1: Importing the Data
-In the initial phase of this project, we begin by importing the dataset. The dataset is retrieved from the UCI Machine Learning Repository and consists of information about different types of wine. We use the read.table function to load the data, specifying the data source, separator, column names, and other relevant parameters. After loading the data, we examine its dimensions, check for missing values, and generate a summary to gain an initial understanding of its structure and content.
+In the initial phase of this project, we begin by importing the dataset. The dataset is retrieved from the UCI Machine Learning Repository and consists of information about different types of wine. We use the read.table function to load the data, specifying the data source, separator, column names, and other relevant parameters. After loading the data, we examine its dimensions, check for missing values, and generate a summary to gain an initial understanding of its structure and content. \
+Source: [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/)
 
 
 In this chapter, we establish the foundation of our analysis by obtaining and preparing the dataset for further exploration and modeling.
+
+## Chapter 2: Dataset Overview:
+### Features: 
+The dataset includes features like:
+Class \
+Alcohol \
+Malic acid \
+Ash \
+Alcalinity of ash \
+Magnesium \ 
+Total phenols \
+Flavanoids \
+Nonflavanoid phenols\ 
+Proanthocyanins \
+Color intensity \
+Hue \
+OD280/OD315 of diluted wines \
+Proline
+
+### Target Variable:
+The target variable in this project is: \
+Class: It determines whether the classified wine of class 1, 2 or 3.
 
 ## Chapter 2: Exploratory Data Analysis (EDA)
 In the second chapter, we dive into Exploratory Data Analysis (EDA). EDA is a crucial step in any data science project as it helps us understand the characteristics and relationships within the dataset. We utilize libraries like skimr to generate comprehensive statistics and visualizations. These statistics include measures of central tendency, distribution summaries, and data quality checks. Visualizations, such as histograms and correlation matrices, provide insights into feature relationships and potential patterns within the data.
